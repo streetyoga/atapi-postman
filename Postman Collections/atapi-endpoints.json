@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "0910c957-dd62-4589-8697-78848fce6a53",
+		"name": "Basic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/",
+			"_postman_id": "166f1f81-7d7d-41fb-a38f-174f51ffcec3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:47491"
+			},
+			"response": []
+		},
+		{
+			"name": "/ api",
+			"_postman_id": "c14b4326-ed14-4f4e-a87b-53888a071708",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:47491/api"
+			},
+			"response": []
+		},
+		{
+			"name": "/ api/rfr",
+			"_postman_id": "391f2ed2-0bf9-4c4f-9e61-2bdd3ea25fdc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:47491/api/rfr"
+			},
+			"response": []
+		},
+		{
+			"name": "/ api/symbols/<symbol>",
+			"_postman_id": "f73f8a7e-8413-426f-8975-a0f61502d2c0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:47491/api/symbols/BTCUSDT"
+			},
+			"response": []
+		}
+	]
+}

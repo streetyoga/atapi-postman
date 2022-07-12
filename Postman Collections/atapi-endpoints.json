@@ -14,7 +14,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://127.0.0.1:47491"
+				"url": "{{url}}/"
 			},
 			"response": []
 		},

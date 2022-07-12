@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "/",
-			"_postman_id": "166f1f81-7d7d-41fb-a38f-174f51ffcec3",
+			"id": "166f1f81-7d7d-41fb-a38f-174f51ffcec3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -20,7 +20,7 @@
 		},
 		{
 			"name": "/ api",
-			"_postman_id": "c14b4326-ed14-4f4e-a87b-53888a071708",
+			"id": "c14b4326-ed14-4f4e-a87b-53888a071708",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -33,7 +33,7 @@
 		},
 		{
 			"name": "/ api/rfr",
-			"_postman_id": "391f2ed2-0bf9-4c4f-9e61-2bdd3ea25fdc",
+			"id": "391f2ed2-0bf9-4c4f-9e61-2bdd3ea25fdc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -46,14 +46,14 @@
 		},
 		{
 			"name": "/ api/symbols/<symbol>",
-			"_postman_id": "f73f8a7e-8413-426f-8975-a0f61502d2c0",
+			"id": "f73f8a7e-8413-426f-8975-a0f61502d2c0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://127.0.0.1:47491/api/symbols/BTCUSDT"
+				"url": "{{url}}/api/symbols/BTCUSDT"
 			},
 			"response": []
 		}
